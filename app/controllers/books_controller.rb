@@ -6,13 +6,14 @@ class BooksController < ApplicationController
   def create
     @book = Book.new(book_params)
     if @book.save
-      redirect_to root_path
+      redirect_to books_path
     else
       render :new
     end
   end
 
   def index
+    @books = Book.all
   end
 
   def show
