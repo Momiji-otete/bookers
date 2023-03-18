@@ -1,6 +1,6 @@
-<div>
+<p id="notice">
   <%= flash[:notice] %>
-</div>
+</p>
 
 <p>
   <strong>Title:</strong>
@@ -12,4 +12,4 @@
 </p>
 <span><%= link_to "Edit", edit_book_path(@book.id) %></span>
 |
-<span><%= link_to "Back", books_path %></span>
+<span class="back"><%= link_to "Back", books_path %></span>
