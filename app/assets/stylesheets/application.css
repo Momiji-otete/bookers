@@ -43,7 +43,7 @@ td {
   padding-right: 5px;
 }
 
-#error-text {
+#error-explanation {
   width: 450px;
   border: 2px solid red;
   padding: 7px;
@@ -52,7 +52,7 @@ td {
   background-color: #f0f0f0;
 }
 
-#error-text h2 {
+#error-explanation h2 {
   text-align: left;
   font-weight: bold;
   padding: 5px 5px 5px 15px;
